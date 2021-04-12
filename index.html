@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Roboto:500" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="dist/scrollreveal.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
 </head>
 <body class="is-boxed has-animations">
     <div class="body-wrap boxed-container">
@@ -15,31 +18,9 @@
             <div class="container">
                 <div class="site-header-inner">
                     <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-                                <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                                    <title>Ava</title>
-                                    <defs>
-                                        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="logo-gradient-b">
-                                            <stop stop-color="#39D8C8" offset="0%"/>
-                                            <stop stop-color="#BCE4F4" offset="47.211%"/>
-                                            <stop stop-color="#838DEA" offset="100%"/>
-                                        </linearGradient>
-                                        <path d="M32 16H16v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v14z" id="logo-gradient-a"/>
-                                        <linearGradient x1="23.065%" y1="25.446%" y2="100%" id="logo-gradient-c">
-                                            <stop stop-color="#1274ED" stop-opacity="0" offset="0%"/>
-                                            <stop stop-color="#1274ED" offset="100%"/>
-                                        </linearGradient>
-                                    </defs>
-                                    <g fill="none" fill-rule="evenodd">
-                                        <mask id="logo-gradient-d" fill="#fff">
-                                            <use xlink:href="#logo-gradient-a"/>
-                                        </mask>
-                                        <use fill="url(#logo-gradient-b)" xlink:href="#logo-gradient-a"/>
-                                        <path fill="url(#logo-gradient-c)" mask="url(#logo-gradient-d)" d="M-16-16h32v32h-32z"/>
-                                    </g>
-                                </svg>
-                            </a>
+                            <!-- <a href="#">
+                                <img src="https://ireneyeloy.com/wp-content/uploads/2021/04/ARDEA-LOGO-Principal-1png-.png" class="m-0" style="height:80px">
+                            </a> -->
                         </h1>
                     </div>
                 </div>
@@ -50,16 +31,17 @@
             <section class="hero text-center">
                 <div class="container-sm">
                     <div class="hero-inner">
-                        <h1 class="hero-title h2-mobile mt-0 is-revealing">Ardea</h1>
-                        <p class="hero-paragraph is-revealing">Slow Fashion Stories</p>
-                        <div class="hero-form newsletter-form field field-grouped is-revealing">
+                        <img class="hero-title h2-mobile mt-0 is-revealing" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: 140px; width:auto;" src="https://ireneyeloy.com/wp-content/uploads/2021/04/ARDEA-LOGO-Principal-1png-.png">
+                        
+                        <p class="hero-paragraph is-revealing" style="font-family: 'Roboto', sans-serif; font-size: 24px; margin-top: 12px"><i>Slow Fashion Stories</i></p>
+                        <!-- <div class="hero-form newsletter-form field field-grouped is-revealing">
                             <div class="control control-expanded">
                                 <input class="input" type="email" name="email" placeholder="Your best email&hellip;">
                             </div>
                             <div class="control">
                                 <a class="button button-primary button-block button-shadow" href="#">Be the first to know</a>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="hero-browser">
                             <div class="bubble-3 is-revealing">
                                 <svg width="427" height="286" viewBox="0 0 427 286" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -254,15 +236,12 @@
                 <div class="container-sm">
                     <div class="newsletter-inner section-inner">
                         <div class="newsletter-header text-center is-revealing">
-                            <h2 class="section-title mt-0">Stay in the know</h2>
-                            <p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation</p>
+                            <h2 class="section-title mt-0">Make an impact</h2>
+                            <p class="section-paragraph">Fill our form to help us with the first steps of our project. Make Ardea big.</p>
                         </div>
                         <div class="footer-form newsletter-form field field-grouped is-revealing">
                             <div class="control control-expanded">
-                                <input class="input" type="email" name="email" placeholder="Your best email&hellip;">
-                            </div>
-                            <div class="control">
-                                <a class="button button-primary button-block button-shadow" href="#">Get early access</a>
+                                <a class="button button-primary button-block button-shadow" href="#">Fill the form</a>
                             </div>
                         </div>
                     </div>
@@ -270,7 +249,7 @@
             </section>
         </main>
 
-        <footer class="site-footer text-light">
+        <!-- <footer class="site-footer text-light">
             <div class="container">
                 <div class="site-footer-inner">
                     <div class="brand footer-brand">
@@ -338,7 +317,7 @@
                     <div class="footer-copyright">&copy; 2018 Ava, all rights reserved</div>
                 </div>
             </div>
-        </footer>
+        </footer> -->
     </div>
 
     <script src="main.min.js"></script>
