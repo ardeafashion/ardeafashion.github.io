@@ -13,66 +13,6 @@
         p{
             font-family: 'Roboto', sans-serif;
         }
-        
-        * {box-sizing: border-box;}
-        .mySlides {display: none;}
-        img {vertical-align: middle;}
-
-        /* Slideshow container */
-        .slideshow-container {
-        max-width: 1000px;
-        position: relative;
-        margin: auto;
-        }
-
-        /* Caption text */
-        .text {
-        color: #f2f2f2;
-        font-size: 15px;
-        padding: 8px 12px;
-        position: absolute;
-        bottom: 8px;
-        width: 100%;
-        text-align: center;
-        }
-
-        /* The dots/bullets/indicators */
-        .dot {
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-        }
-
-        .active {
-        background-color: #717171;
-        }
-
-        /* Fading animation */
-        .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-        }
-
-        @-webkit-keyframes fade {
-        from {opacity: .4} 
-        to {opacity: 1}
-        }
-
-        @keyframes fade {
-        from {opacity: .4} 
-        to {opacity: 1}
-        }
-
-        /* On smaller screens, decrease text size */
-        @media only screen and (max-width: 300px) {
-        .text {font-size: 11px}
-        }
     </style>
 </head>
 <body class="is-boxed has-animations">
@@ -97,37 +37,14 @@
                         <img class="hero-title h2-mobile mt-0 is-revealing" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: 140px; width:auto;" src="https://ireneyeloy.com/wp-content/uploads/2021/04/ARDEA-LOGO-Principal-1png-.png">
                         
                         <p class="hero-paragraph is-revealing" style="font-family: 'Roboto', sans-serif; font-size: 24px; margin-top: 12px"><i>Slow Fashion Stories</i></p>
-                        
-                        <!-- Slider de tres fotos-->
-                        <div class="slideshow-container">
-
-                            <div class="mySlides fade">
-                              
-                              <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
-                              <div class="text">Caption Text</div>
+                        <!-- <div class="hero-form newsletter-form field field-grouped is-revealing">
+                            <div class="control control-expanded">
+                                <input class="input" type="email" name="email" placeholder="Your best email&hellip;">
                             </div>
-                            
-                            <div class="mySlides fade">
-                             
-                              <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%">
-                              <div class="text">Caption Two</div>
+                            <div class="control">
+                                <a class="button button-primary button-block button-shadow" href="#">Be the first to know</a>
                             </div>
-                            
-                            <div class="mySlides fade">
-                              
-                              <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
-                              <div class="text">Caption Three</div>
-                            </div>
-                            
-                            </div>
-                            <br>
-                            
-                            <div style="text-align:center">
-                              <span class="dot"></span> 
-                              <span class="dot"></span> 
-                              <span class="dot"></span> 
-                            </div>
-
+                        </div> -->
                         <div class="hero-browser">
                             <div class="bubble-3 is-revealing">
                                 <svg width="427" height="286" viewBox="0 0 427 286" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -165,7 +82,50 @@
 
                                 <iframe width="800" height="450" title="vimeo-player" src="https://player.vimeo.com/video/523431556" frameborder="0" allowfullscreen></iframe>
 
-                                  
+                                  <!-- <svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="browser-a">
+                                            <stop stop-color="#F6F8FA" stop-opacity=".48" offset="0%"/>
+                                            <stop stop-color="#F6F8FA" offset="100%"/>
+                                        </linearGradient>
+                                        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="browser-b">
+                                            <stop stop-color="#F6F8FA" stop-opacity=".48" offset="0%"/>
+                                            <stop stop-color="#F6F8FA" offset="100%"/>
+                                        </linearGradient>
+                                        <linearGradient x1="100%" y1="-12.816%" x2="0%" y2="-12.816%" id="browser-c">
+                                            <stop stop-color="#F6F8FA" stop-opacity="0" offset="0%"/>
+                                            <stop stop-color="#E3E7EB" offset="50.045%"/>
+                                            <stop stop-color="#F6F8FA" stop-opacity="0" offset="100%"/>
+                                        </linearGradient>
+                                        <filter x="-500%" y="-500%" width="1000%" height="1000%" filterUnits="objectBoundingBox" id="dropshadow-1">
+                                            <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter"/>
+                                            <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter" result="shadowBlurOuter"/>
+                                            <feColorMatrix values="0 0 0 0 0.12 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0.2 0" in="shadowBlurOuter"/>
+                                        </filter>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <rect width="800" height="450" rx="4" fill="#FFF" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
+                                        <rect width="800" height="450" rx="4" fill="#FFF"/>
+                                        <g fill="url(#browser-a)" transform="translate(47 67)">
+                                            <path d="M146 0h122v122H146zM0 0h122v122H0zM292 0h122v122H292zM438 0h122v122H438zM584 0h122v122H584z"/>
+                                        </g>
+                                        <g transform="translate(47 239)" fill="url(#browser-b)">
+                                            <path d="M146 0h122v122H146zM0 0h122v122H0zM292 0h122v122H292zM438 0h122v122H438zM584 0h122v122H584z"/>
+                                        </g>
+                                        <path fill="url(#browser-c)" d="M0 146h706v2H0z" transform="translate(47 67)"/>
+                                        <g transform="translate(0 12)">
+                                            <circle fill="#FF6D8B" cx="36" cy="4" r="4"/>
+                                            <circle fill="#FFCB4F" cx="52" cy="4" r="4"/>
+                                            <circle fill="#7CE8DD" cx="68" cy="4" r="4"/>
+                                            <path fill="url(#browser-c)" d="M0 20h800v2H0z"/>
+                                            <path fill="#E3E7EB" d="M742 2h24v4h-24z"/>
+                                        </g>
+                                        <g>
+                                            <path fill="#F6F8FA" d="M47 385h706v32H47z"/>
+                                            <path fill="#E3E7EB" d="M356 399h88v4h-88z"/>
+                                        </g>
+                                    </g>
+                                </svg> -->
                             </div>
                             <div class="bubble-1 is-revealing">
                                 <svg width="61" height="52" viewBox="0 0 61 52" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -364,26 +324,5 @@
     </div>
 
     <script src="main.min.js"></script>
-    <script>
-        var slideIndex = 0;
-        showSlides();
-        
-        function showSlides() {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dot");
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          slideIndex++;
-          if (slideIndex > slides.length) {slideIndex = 1}    
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-          setTimeout(showSlides, 6000); // Change image every 2 seconds
-        }
-        </script>
 </body>
 </html>
