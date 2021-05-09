@@ -19,59 +19,37 @@
         img {vertical-align: middle;}
 
         /* Slideshow container */
-        .slideshow-container {
-        /* max-width: 1000px; */
+        .video-container {
         position: relative;
         margin: auto;
         }
 
         /* Caption text */
         .logo-img {
-        /* padding: 8px 12px; */
         position: absolute;
-        /* width: 100%; */
-        /* text-align: center; */
         display: block; 
-        /* margin: 20px auto;  */
-        width: 10%; 
-        /* height: 140px;  */
-        top: 3%;
-        left: 2%;
-        top: 0;
-        left: 0;
+        width: 100%; 
+        top: 25%;
+        left: 36.2%;
         }
 
-        /* The dots/bullets/indicators */
-        .dot {
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
+        /*buttons*/
+        .btn-ardea{
+            position: absolute;
+            background-color: #095452;
+            color: white;
+            text-decoration: none;
+            padding: 20px 25px;
+            margin-top: 40px;
+            margin-left: 58px;
+            border-radius: 30px;
+            font-family: 'Roboto', sans-serif;
+            align-items: right;
+            font-weight: 400;
         }
-
-        .active {
-        background-color: #717171;
-        }
-
-        /* Fading animation */
-        .fade {
-        /* -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s; */
-        }
-
-        @-webkit-keyframes fade {
-        from {opacity: .4} 
-        to {opacity: 1}
-        }
-
-        @keyframes fade {
-        from {opacity: .4} 
-        to {opacity: 1}
+        .btn-ardea:hover{
+            background-color: white;
+            color: #095452;
         }
 
         /* On smaller screens, decrease text size */
@@ -85,41 +63,16 @@
 
 
         <main>
-            <!-- <section class="newsletter section">
-                <div class="container-sm">
-                    <img class="hero-title h2-mobile mt-0 is-revealing" style="display: block; margin: 20px auto; width: 50%; height: 140px; width:auto;" src="https://ireneyeloy.com/wp-content/uploads/2021/04/ARDEA-LOGO-Principal-1png-.png">
-                </div>
-            </section> -->
-            <section class="newsletter section" style="background-color: blue;">
+            <section class="newsletter section" style="background-color: white;">
                <!-- Slider de tres fotos-->
-                <div class="slideshow-container">
-
-                    <div class="mySlides fade">
-                      
-                      <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
-                      <div class="logo-img"><img class="hero-title h2-mobile mt-0 is-revealing" src="https://ireneyeloy.com/wp-content/uploads/2021/04/ARDEA-LOGO-Principal-1png-.png"></div>
-                    </div>
-                    
-                    <div class="mySlides fade">
-                     
-                      <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%">
-                      <div class="logo-img"><img class="hero-title h2-mobile mt-0 is-revealing" src="https://ireneyeloy.com/wp-content/uploads/2021/04/ARDEA-LOGO-Principal-1png-.png"></div>
-                    </div>
-                    
-                    <div class="mySlides fade">
-                      
-                      <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
-                      <div class="logo-img"><img class="hero-title h2-mobile mt-0 is-revealing" src="https://ireneyeloy.com/wp-content/uploads/2021/04/ARDEA-LOGO-Principal-1png-.png"></div>
-                    </div>
-                    
-                    </div>
-                    <br>
-                    
-                    <!-- <div style="text-align:center">
-                      <span class="dot"></span> 
-                      <span class="dot"></span> 
-                      <span class="dot"></span> 
-                    </div> -->
+                <div class="video-container">
+                        <video autoplay muted loop id="myVideo"><source src="https://ireneyeloy.com/wp-content/uploads/2021/05/Background-header-Ardea-1440x688-1.mp4" type="video/mp4"></video>
+                        <div class="logo-img">
+                            <img class="hero-title h2-mobile mt-0 is-revealing" src="https://ireneyeloy.com/wp-content/uploads/2021/04/ARDEA-LOGO-Principal-1png-.png">
+                            <!-- <p>Slow Fashion Stories</p> -->
+                            <a class="btn-ardea" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUzohG52zMGqXHjglFkfJXoHfMfROl1vAqNv5JPGJ2xk9rog/viewform">BE PART OF THE CHANGE</a>
+                        </div>
+                </div> 
             </section>
 
             <section class="features section text-center">
@@ -194,15 +147,15 @@
                 </div>
             </section>
 
+        <main>
             <section class="hero text-center">
                 <div class="container-sm">
                     <div class="hero-inner">
                         <img class="hero-title h2-mobile mt-0 is-revealing" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: 140px; width:auto;" src="https://ireneyeloy.com/wp-content/uploads/2021/04/ARDEA-LOGO-Principal-1png-.png">
                         
                         <p class="hero-paragraph is-revealing" style="font-family: 'Roboto', sans-serif; font-size: 24px; margin-top: 12px"><i>Slow Fashion Stories</i></p>
-                        
-                        
-                        
+
+
                         <div class="hero-browser">
                             <div class="bubble-3 is-revealing">
                                 <svg width="427" height="286" viewBox="0 0 427 286" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -278,6 +231,8 @@
                 </div>
             </section>
 
+
+
             <section class="newsletter section">
                 <div class="container-sm">
                     <div class="newsletter-inner section-inner">
@@ -293,10 +248,6 @@
                     </div>
                 </div>
             </section>
-            
-
-
-            
         </main>
 
         <!-- <footer class="site-footer text-light">
