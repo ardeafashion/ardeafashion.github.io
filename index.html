@@ -22,15 +22,18 @@
         .video-container {
         position: relative;
         margin: auto;
+        display: grid;
+        place-items: center;
+
         }
 
         /* Caption text */
         .logo-img {
         position: absolute;
-        display: block; 
+        /* display: block; 
         width: 100%; 
         top: 25%;
-        left: 36.2%;
+        left: 36.2%; */
         }
 
         /*buttons*/
@@ -51,7 +54,7 @@
             background-color: white;
             color: #095452;
         }
-        @media only screen and (max-width: 1280px){
+        /* @media only screen and (max-width: 1280px){
             .logo-img {
                 position: absolute;
                 display: block; 
@@ -140,6 +143,40 @@
                 top: 25%;
                 left: 0;
             }
+        } */
+        .iframe-container{
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; 
+            height: 0;
+        }
+        .iframe-container iframe{
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .btn-ardea2{
+            /* position: absolute; */
+            background-color: #095452;
+            color: white;
+            text-decoration: none;
+            padding: 20px 25px;
+            /* margin-top: 40px;
+            margin-left: 58px; */
+            border-radius: 30px;
+            font-family: 'Roboto', sans-serif;
+            align-items: right;
+            font-weight: 400;
+        }
+        .btn-ardea2:hover{
+            background-color: white;
+            color: #095452;
+        }
+        .grid-btn{
+            display: grid;
+            place-items: center;
         }
     </style>
 </head>
@@ -226,7 +263,7 @@
             <section class="hero text-center">
                 <div class="container-sm">
                     <div class="hero-inner">
-                        <img class="hero-title h2-mobile mt-0 is-revealing" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: 140px; width:auto;" src="https://ireneyeloy.com/wp-content/uploads/2021/04/ARDEA-LOGO-Principal-1png-.png">
+                        <!-- <img class="hero-title h2-mobile mt-0 is-revealing" style="display: block; margin-left: auto; margin-right: auto; width: 50%; height: 140px; width:auto;" src="https://ireneyeloy.com/wp-content/uploads/2021/04/ARDEA-LOGO-Principal-1png-.png"> -->
                         
                         <p class="hero-paragraph is-revealing" style="font-family: 'Roboto', sans-serif; font-size: 24px; margin-top: 12px"><i>Slow Fashion Stories</i></p>
 
@@ -262,7 +299,7 @@
                                     </g>
                                 </svg>
                             </div>
-                            <div class="hero-browser-inner is-revealing">
+                            <div class="hero-browser-inner is-revealing iframe-container">
                                 <iframe width="800" height="450" frameborder="0" src="https://www.youtube.com/embed/ResV--yTrYI">
                                 </iframe>
 
@@ -313,9 +350,9 @@
                             <h2 class="section-title mt-0">Who made the t-shirt that I am wearing?</h2>
                             <p class="section-paragraph">Fill our form to help us with the first steps of our project. Have and impact through slow fashion.</p>
                         </div>
-                        <div class="footer-form newsletter-form field field-grouped is-revealing">
+                        <div class="footer-form newsletter-form field field-grouped is-revealing grid-btn">
                             <div class="control control-expanded">
-                                <a class="button button-primary button-block button-shadow" href="https://forms.gle/o4wxQPQk2MzNpeGe7" target="_blank">Fill the form</a>
+                                <a class="btn-ardea2" href="https://forms.gle/o4wxQPQk2MzNpeGe7" target="_blank">Fill the form</a>
                             </div>
                         </div>
                     </div>
